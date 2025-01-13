@@ -19,7 +19,7 @@ windows = { version = "0.56", features = [
     "Win32_Foundation",             # for FindWindowW
     "Win32_System_Threading",       # For CreateThread
 ] }
-windows-core = { version = "0.56" }
+windows-core = { version = "0.59" }
 windows-interface = { version = "0.56" }
 windows-implement = { version = "0.56" }
 crossbeam-channel = { version = "0.5", optional = true }
